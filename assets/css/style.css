@@ -1,0 +1,54 @@
+body {
+    background: url(../images/groovepaper.png);
+}
+
+.header {
+    background-color: #898FC1;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+.how-to-play {
+    background-color: #DDDFE8;
+    color: #315A44;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.guess-number {
+    background-color: #E29429;
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    width: 600px;
+    margin: 20px;
+}
+
+.wins {
+    background-color: #73896E;
+    color: black;
+    text-align: justify;
+    padding: 5px;
+    margin-top: 5px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.losses {
+    background-color: #73896E;
+    color: black;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.btn {
+    width: 250px;
+    height: 250px;
+}
