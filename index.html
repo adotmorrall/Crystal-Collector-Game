@@ -39,9 +39,11 @@
         <div class="score-tracker">
             <div class="wins">
                 <p>Wins: <span id="win-counter"></span></p>
+                <audio id="winner" src="./assets/sounds/winner.mp3" preload="auto"></audio>
             </div>
             <div class="losses">
                 <p>Losses: <span id="loss-counter"></span></p>
+                <audio id="loser" src="./assets/sounds/loser.mp3" preload="auto"></audio>
             </div>
         </div>
         <div class="crystals">
@@ -60,12 +62,10 @@
                             src="./assets/images/purple-crystal.png"></input>
                     </div>
                     <div class="col-md-3 crystal">
-                        <input type="image" class="btn" id="red-crystal"
-                            src="./assets/images/red-crystal.png"></input>
+                        <input type="image" class="btn" id="red-crystal" src="./assets/images/red-crystal.png"></input>
                     </div>
                 </div>
             </div>
-
         </div>
 
         <script src="./assets/javascript/games.js"></script>

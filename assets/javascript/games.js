@@ -34,14 +34,16 @@ $(".btn").on("click", function () {
     $("#user-total-score").text(totalScore);
 
     if (totalScore === matchThisNumber) {
+        document.getElementById("winner").play();
         alert("Congrats, you are smarter than a 5th grader!");
         userWins++
         $("#win-counter").text(userWins)
         startGame()
     } else if (totalScore > matchThisNumber) {
-            alert("Better luck next time champ!");
-            userLosses++
-            $("#loss-counter").text(userLosses)
-            startGame()
-        }
-    })
+        document.getElementById("loser").play();
+        alert("Better luck next time champ!");
+        userLosses++
+        $("#loss-counter").text(userLosses)
+        startGame()
+    }
+})
